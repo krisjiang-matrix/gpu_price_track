@@ -1,0 +1,33 @@
+name: Daily GPU price tracker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 14 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect prices and build report
+        env:
+          VAST_API_KEY: ${{ secrets.VAST_API_KEY }}
+        run: python gpu_price_tracker.py collect-and-report
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update daily GPU rental prices"
+          file_pattern: data/gpu_prices.csv data/latest_report.md

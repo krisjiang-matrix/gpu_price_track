@@ -1,0 +1,4 @@
+observed_at_utc,collector,records_collected,status
+2026-06-29T15:08:50Z,collect_lambda,22,ok
+2026-06-29T15:08:50Z,collect_runpod,15,ok
+2026-06-29T15:08:50Z,collect_vast,0,no_rows

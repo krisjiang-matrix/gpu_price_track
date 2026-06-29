@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GPU Rental Demand Radar</title>
+    <link rel="stylesheet" href="web/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="dateline" id="lastUpdated">Loading latest observation...</p>
+          <h1>GPU rental demand radar</h1>
+          <p class="lede">
+            Daily prices from GPU rental providers, converted into a demand signal for AI compute:
+            expanding, accelerating, stable, or decreasing.
+          </p>
+        </div>
+        <div class="hero-card">
+          <span class="spark"></span>
+          <p class="hero-label">Market pulse</p>
+          <strong id="marketPulse">Baseline forming</strong>
+          <small id="marketPulseDetail">Collect at least two days to unlock trend direction.</small>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Summary metrics">
+        <article>
+          <span>Tracked series</span>
+          <strong id="seriesCount">0</strong>
+        </article>
+        <article>
+          <span>Median price</span>
+          <strong id="medianPrice">$0.00</strong>
+        </article>
+        <article>
+          <span>Highest latest GPU</span>
+          <strong id="highestGpu">-</strong>
+        </article>
+        <article>
+          <span>Data points</span>
+          <strong id="pointCount">0</strong>
+        </article>
+      </section>
+
+      <section class="controls" aria-label="Chart controls">
+        <label>
+          Provider
+          <select id="providerFilter"></select>
+        </label>
+        <label>
+          GPU
+          <select id="gpuFilter"></select>
+        </label>
+      </section>
+
+      <section class="panel chart-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Price trend</h2>
+            <p>Median daily USD per GPU-hour. Single-day baselines render as a flat starting mark.</p>
+          </div>
+          <div class="legend" id="legend"></div>
+        </div>
+        <div id="chart" class="chart" role="img" aria-label="GPU rental price trend chart"></div>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Latest signals</h2>
+              <p>Direction is conservative until multiple daily observations exist.</p>
+            </div>
+          </div>
+          <div class="signal-list" id="signalList"></div>
+        </article>
+
+        <article class="panel report-panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Generated report</h2>
+              <p>Directly rendered from <code>data/latest_report.md</code>.</p>
+            </div>
+          </div>
+          <div id="report" class="report"></div>
+        </article>
+      </section>
+    </main>
+    <script src="web/app.js"></script>
+  </body>
+</html>

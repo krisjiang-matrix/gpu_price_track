@@ -1,27 +1,27 @@
 # GPU Rental Price Demand Signal
 
-Generated: 2026-11-24 23:26:45Z
+Generated: 2026-11-25 23:01:49Z
 
 Interpretation: rising GPU rental prices can suggest expanding AI compute demand, especially when marketplace availability is flat or falling. Falling prices usually point to softer demand, more supply, or a shift in GPU mix.
 
 | Provider | GPU | Latest date | Latest $/GPU/hr | Signal | Evidence |
 |---|---:|---:|---:|---|---|
-| Lambda | A10 | 2026-11-24 | $1.2900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | A100 | 2026-11-24 | $1.9900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | A6000 | 2026-11-24 | $1.0900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | B200 | 2026-11-24 | $7.8400 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | GH200 | 2026-11-24 | $2.5900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | H100 | 2026-11-24 | $4.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | RTX 6000 | 2026-11-24 | $0.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Lambda | V100 | 2026-11-24 | $0.7900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | A100 | 2026-11-24 | $2.1400 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | A6000 | 2026-11-24 | $0.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | B200 | 2026-11-24 | $7.9900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | B300 | 2026-11-24 | $8.9900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | H100 | 2026-11-24 | $3.1900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | H200 | 2026-11-24 | $5.2900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | L4 | 2026-11-24 | $0.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | L40S | 2026-11-24 | $1.0900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | RTX 4090 | 2026-11-24 | $0.8900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | RTX 5090 | 2026-11-24 | $1.3900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
-| Runpod | RTX 6000 | 2026-11-24 | $1.8900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | A10 | 2026-11-25 | $1.2900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | A100 | 2026-11-25 | $1.9900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | A6000 | 2026-11-25 | $1.0900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | B200 | 2026-11-25 | $7.8400 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | GH200 | 2026-11-25 | $2.5900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | H100 | 2026-11-25 | $4.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | RTX 6000 | 2026-11-25 | $0.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Lambda | V100 | 2026-11-25 | $0.7900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | A100 | 2026-11-25 | $2.1400 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | A6000 | 2026-11-25 | $0.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | B200 | 2026-11-25 | $7.9900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | B300 | 2026-11-25 | $8.9900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | H100 | 2026-11-25 | $3.1900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | H200 | 2026-11-25 | $5.2900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | L4 | 2026-11-25 | $0.6900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | L40S | 2026-11-25 | $1.0900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | RTX 4090 | 2026-11-25 | $0.8900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | RTX 5090 | 2026-11-25 | $1.3900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
+| Runpod | RTX 6000 | 2026-11-25 | $1.8900 | stable | Price moved 0.0% day-over-day, which is inside the noise band. |
